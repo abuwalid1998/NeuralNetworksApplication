@@ -78,7 +78,7 @@ public class Controller {
     public ResponseEntity<String> TestNeural(@RequestBody String modelpath){
         try {
 
-          String Result = networkFactory.testModel("SavedNetworks/alicejones9.zip");
+          String Result = networkFactory.testModel("SavedNetworks/charliedavis345.zip");
 
             return new ResponseEntity<>(Result, HttpStatus.OK);
 
